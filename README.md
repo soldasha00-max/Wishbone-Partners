@@ -1,3 +1,3 @@
-# Wishbone-Partners
+# WISHBONE + PARTNERS
 
 ### The home of beautiful architecture.

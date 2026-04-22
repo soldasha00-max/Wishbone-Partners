@@ -1,0 +1,41 @@
+.touch {
+    background-color: #CEC4BC;
+    height: 314px;
+    position: relative;
+}
+.container {
+}
+.touch__info {
+    /* max-width: 600px; */
+    padding-top: 95px;
+    padding-left: 136px;
+}
+.touch__title {
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 2px;
+line-height: 20px;
+color: #645C55;
+margin: 0;
+}
+.touch__title-2 {
+font-size: 40px;
+font-weight: 400;
+line-height: 42px;
+color: #1B1A1A;
+margin: 0;
+}
+.touch__btn {
+    width: 145px;
+    height: 46px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    border: none;
+    background-color: transparent;
+    color: balck;
+    position: absolute;
+    right: 156px;
+    top: 145px;
+}

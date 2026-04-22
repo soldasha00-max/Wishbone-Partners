@@ -1,0 +1,98 @@
+.project {
+
+    height: 800px
+}
+.project__info {
+    max-width: 600px;
+    margin-top: 120px;
+}
+.project__title {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    color: black;
+    padding-left: 88px;
+    margin-bottom: 10px;
+}
+.project__desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #645C55;
+    padding-left: 88px;
+    margin-top: 0;
+}
+.projects__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+    padding-left: 30px;
+} 
+.project__card {
+    position: relative;
+}
+.project__img {
+    width: 365px;
+    height: 446px;
+}
+
+
+.card__title-1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #645C55;
+    position: absolute;
+    z-index: 2;
+    top: 42px;
+    left: 42px;
+}
+.card__title-2 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #403E3B;
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    left: 42px;
+}
+.card__btn {
+    width: 133px;
+    height: 46px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    border: none;
+    font-family: Poppins;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    top: 372px;
+}
+
+.project__btn-2 {
+width: 180px;
+height: 46px;
+color: black;
+background-color: transparent;
+border: none;
+font-size: 16px;
+font-weight: 400;
+font-family: Poppins;
+letter-spacing: 0.4px;
+cursor: pointer;
+position: absolute;
+left: 45%;
+}
+
+
+
+

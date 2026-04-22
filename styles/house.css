@@ -1,0 +1,41 @@
+
+
+.house {
+    position: relative;
+    z-index: 2;
+    
+ }
+
+
+.house__container {
+    position: relative;
+    display: inline-block;
+    align-items: right;
+}
+
+.picture {
+
+}
+
+.text-overlay {
+    position: absolute;
+    right: 80px;
+    top: 300px;
+    padding: 10px;
+}
+
+.house__title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #403E3B;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin: 0 0 16px 0;
+}
+.house__desc {
+font-size: 16px;
+font-weight: 400;
+color: #645C55;
+} 
+
+

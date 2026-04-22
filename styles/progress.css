@@ -1,0 +1,69 @@
+.progress {
+  /* padding: 80px 0; отступ сверху и снизу */
+  background-color: var(--co-white); /* или другой фон */
+  z-index: 2;
+  position: relative;
+}
+
+.progress__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.progress__title-1 {
+    font-size:14px;
+    font-weight:400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #645C55;
+}
+.progress__title-2 {
+    font-size:39px;
+    font-weight:400;
+    line-height: 42px;
+    color:#1B1A1A;
+}
+.progress__cards {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 200px;
+    gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.progress img {
+  width: 80px; /* подстрой под свою иконку */
+  height: auto;
+}
+
+.progress__title {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--co-brown);
+  margin: 0;
+}
+
+.progress__desc {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #645C55;
+
+}
+
+
+
